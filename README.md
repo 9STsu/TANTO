@@ -9,13 +9,13 @@ This tool is developed in C++ and includes features that are often utilized in s
 
 #Key Features
 
-#User Authentication to Bypass Sandbox
+User Authentication to Bypass Sandbox
 User Login and Password: Requiring user credentials serves a dual purpose: it adds a layer of security to prevent unauthorized access and acts as a way to evade detection by security solutions. This feature can help ensure that only authorized individuals can run the tool, even if it is found on a system. It is intended to bypass EDR/AV sandboxes if the password is not provided or if the password is entered incorrectly. This is to bypass EDR/AV sandboxes as they do not have the ability to bypass authentication.
 
-#Mouse Movement to Bypass Sandbox
+Mouse Movement to Bypass Sandbox
 Mouse Movement: This tool requires users to move the mouse quickly after entering their credentials. This can potentially help bypass sandbox environments that are commonly used by antivirus solutions and EDRs (Endpoint Detection and Response Systems) to detect automated or suspicious behavior. Many security solutions analyze processes for signs of non-human interaction, and simulating real user activity can help prevent alerts from being raised. (EDR/AV may disable the tool based on suspicious and malicious behavior.)
 
-#Debugger Detection
+Debugger Detection
 IsDebuggerPresent Function: This tool uses the IsDebuggerPresent function to check whether it is running in a debugger. Debugging is often used by security researchers and analysts to examine the behavior of applications. By detecting the presence of a debugger, the tool can change its behavior to avoid detection or to avoid analysis.
 
 [1] Process Dumping
