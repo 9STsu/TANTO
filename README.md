@@ -1,8 +1,7 @@
 # TANTO
                  Overview of the Tool
 
-This tool is developed in C++ and includes features that are often utilized in security research or penetration testing. However, it’s important to note that using such tools can be legally and ethically sensitive, and they should only be employed in controlled environments, such as during authorized security assessments or research.
-
+The tool is developed in C++ and includes features that are often used in security research or penetration testing. However, it is important to note that the use of such tools can be legally and ethically sensitive and they should only be used in controlled environments, such as security assessments or authorized research and testing of security mechanisms.
 
 ![Capture](https://github.com/user-attachments/assets/6dfaca08-feec-446a-ab45-ace2a8c0b405)
 
